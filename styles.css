@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e4d3cf;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin: 40px 30px;
+  background-color: #b67162;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background: #bb8082;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+  box-shadow: 0 4rem 8rem #1b1717;
+}
+
+
+.card-img {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+
+.img1 {
+  background-image: url("https://images.pexels.com/photos/4052198/pexels-photo-4052198.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+
+.img2 {
+  background-image: url("https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+
+}
+
+.img3 {
+  background-image: url("https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940S");
+}
+
+.card-title {
+  padding: 0 20px;
+  color: #eeebdd;
+}
+
+.card-content {
+  padding: 0 20px;
+  color: #eeebdd;
+}
+
+.card-button {
+  display: inline-block;
+  border: white solid 1px;
+  border-radius: 10px;
+  margin: 5px 50px 5px 100px;
+  padding: 1px 4px;
+
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: #eeebdd;
+}
+
+a:hover {
+  color: #6e7582;
+}
+
+.card-button:hover {
+  background: #ffe6ca;
+}
